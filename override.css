@@ -3,9 +3,11 @@
 /* ---------------------------------------------------------------------------------- */
 /* HERO */
 /* homepage - hero - height */
-.section-wrapper .fullscreen {
+/* .section-wrapper .fullscreen {
    height: auto;
  }
+ */
+
 /* homepage - hero - remove grey overlay */
 .overlay-black-light {
    background-color: transparent;
@@ -23,21 +25,22 @@
 /* ---------------------------------------------------------------------------------- */
 /* NAVIGATION */
 /* homepage - navigation - orange bacground */
-.section-media.header-01.design-01 .nav-line {
+/* .section-media.header-01.design-01 .nav-line {
     background-color: #ffc535;
-}
+} */
+
 /* other pages - navigation - orange bacground */
 .section-black.header-01.design-02 .nav-line {
     background-color: #ffc535;
 }
 
 /* homepage - navigation - background colours and hide the top line (in active items) */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
    body:not(.touched) .section-media.header-01 ul.level-1>li>a:hover {
       background-color: rgba(255,255,255,0.3);
       border: 0;
    }
-}
+} */
 
 /* other pages - navigation - background colour and hide the top line (in active items) */
 @media (min-width: 768px) {
