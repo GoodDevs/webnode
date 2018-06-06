@@ -27,15 +27,6 @@
     background-color: #ffc535;
 }
 
-/* homepage - navigation - hide blue line in active navigation items */
-/* @media (min-width: 768px) {
-  .color-blue .section-media.header-01 ul.level-1>li:not(.wnd-homepage).wnd-active-path>a,
-  .color-blue .section-media.header-01 ul.level-1>li:not(.wnd-homepage).wnd-active>a,
-  body:not(.touched) .color-blue .section-media.header-01 ul.level-1>li>a:hover {
-    border-color: none;
-  }
-} */
-
 /* homepage - navigation - background colours and hide the top line (in active items) */
 @media (min-width: 768px) {
    body:not(.touched) .section-media.header-01 ul.level-1>li>a:hover {
@@ -43,15 +34,6 @@
       border: 0;
    }
 }
-
-/* other pages - navigation - hide blue line in active navigation items */
-/* @media (min-width: 768px) {
-  .color-blue .section-black.header-01 ul.level-1>li:not(.wnd-homepage).wnd-active-path>a, 
-  .color-blue .section-black.header-01 ul.level-1>li:not(.wnd-homepage).wnd-active>a, 
-  body:not(.touched) .color-blue .section-black.header-01 ul.level-1>li>a:hover {
-    border: none;
-  }
-} */
 
 /* other pages - navigation - background colour and hide the top line (in active items) */
 @media (min-width: 768px) {
@@ -61,6 +43,15 @@
       border: 0;
    }
 }
+
+/* other pages - navigation - background colour and hide the top line (in hovered items) */
+@media (min-width: 768px) {
+   body:not(.touched) .section-black.header-01 ul.level-1>li>a:hover {
+      background-color: rgba(255,255,255,0.3);
+      border: 0;
+   }
+}
+
 /* ---------------------------------------------------------------------------------- */
 /* ICONS */
 /* icons - blue colour */
