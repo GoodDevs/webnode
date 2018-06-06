@@ -6,6 +6,10 @@
 .section-wrapper .fullscreen {
    height: auto;
  }
+/* homepage - hero - remove grey overlay */
+.overlay-black-light {
+   background-color: none;
+}
 
 /* ---------------------------------------------------------------------------------- */
 /* HEADINGS */
