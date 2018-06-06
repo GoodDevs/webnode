@@ -8,7 +8,7 @@
  }
 /* homepage - hero - remove grey overlay */
 .overlay-black-light {
-   background-color: none;
+   background-color: transparent;
 }
 
 /* ---------------------------------------------------------------------------------- */
