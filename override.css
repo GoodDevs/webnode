@@ -51,6 +51,9 @@
    top: 0 !important;
    bottom: auto !important;
 }
+.header-01.design-01>.section-inner {
+   padding: 40px 0;
+}
 
 /* other pages - navigation - orange bacground */
 .section-black.header-01.design-02 .nav-line {
