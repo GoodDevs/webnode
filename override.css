@@ -1,17 +1,29 @@
 /* Style overrides for the generated website. */
 
+
 /* ---------------------------------------------------------------------------------- */
 /* HERO */
-/* homepage - hero - height */
-/* .section-wrapper .fullscreen {
-   height: auto;
+/* homepage - hero - disable */
+.section-wrapper .fullscreen {
+   height: auto !important;
+   min-height: auto !important;
+   max-height: auto !important;
  }
- */
-
-/* homepage - hero - remove grey overlay */
+.header-01.design-01 .section-bg {
+   display:none !important;
+}
+ 
+/* homepage - remove grey overlay */
+.overlay-black {
+   background-color: transparent;
+}
 .overlay-black-light {
    background-color: transparent;
 }
+
+/* homepage - set proportional height of the first content element to ensure that the background photo is displayed correctly */
+.wtf-homepage .section.default-01.design-01.section-media.wnd-background-image {}
+
 
 /* ---------------------------------------------------------------------------------- */
 /* HEADINGS */
@@ -28,6 +40,10 @@
 /* .section-media.header-01.design-01 .nav-line {
     background-color: #ffc535;
 } */
+.header-01.design-01 .nav-line {
+   top: 0 !important;
+   bottom: auto !important;
+}
 
 /* other pages - navigation - orange bacground */
 .section-black.header-01.design-02 .nav-line {
