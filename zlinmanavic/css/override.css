@@ -136,18 +136,24 @@ strong {
   padding: 40px 0;
 }
 
-/* hamburger menu - colour */
-.section-media.header-01 #menu-submit span,
-.section-media.header-01 #menu-submit span:after,
-.section-media.header-01 #menu-submit span:before {
-  background-color: #004a8f;
-}
-
 /* other pages - navigation - orange bacground */
 .section-black.header-01.design-02 .nav-line,
 .section-black.header-01.design-02 .nav-line.sticky {
   background-color: #ffc535;
   border-bottom: 1px solid #fff;
+}
+
+/* homepage - hamburger menu - colour */
+.section-media.header-01 #menu-submit span,
+.section-media.header-01 #menu-submit span:after,
+.section-media.header-01 #menu-submit span:before {
+  background-color: #004a8f;
+}
+/* other pages - hamburger menu - colour */
+.section-black.header-01 #menu-submit span,
+.section-black.header-01 #menu-submit span:after,
+.section-black.header-01 #menu-submit span:before {
+  background-color: #004a8f;
 }
 
 /* homepage - navigation - background colours and hide the top line (in active items) */
