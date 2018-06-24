@@ -123,7 +123,8 @@ strong {
 /* ---------------------------------------------------------------------------------- */
 /* NAVIGATION */
 /* homepage - navigation - orange bacground */
-.section-media.header-01.design-01 .nav-line {
+.section-media.header-01.design-01 .nav-line,
+.section-media.header-01.design-01 .nav-line.sticky {
   background-color: #ffc535;
   border-bottom: 1px solid #fff;
 }
@@ -143,8 +144,10 @@ strong {
 }
 
 /* other pages - navigation - orange bacground */
-.section-black.header-01.design-02 .nav-line {
+.section-black.header-01.design-02 .nav-line,
+.section-black.header-01.design-02 .nav-line.sticky {
   background-color: #ffc535;
+  border-bottom: 1px solid #fff;
 }
 
 /* homepage - navigation - background colours and hide the top line (in active items) */
