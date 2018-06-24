@@ -56,13 +56,9 @@ body,
   font-family: 'Flama', 'fira-sans', 'Trebuchet MS', sans-serif !important;
 }
 
-.blog-detail-head h1,
-.blog h1,
-.text h1,
-.blog-detail-head h2,
-.blog h2,
-.text h2 {
-  font-weight: bold;
+b,
+.strong {
+  font-weight: bold !important;
 }
 
 /* ---------------------------------------------------------------------------------- */
@@ -118,15 +114,16 @@ body,
 /* LOGO */
 /* fix logo being cropped on small screens (phone vertical) */
 .header-01 .logo {
-  max-width: auto !important;
+  max-width: none !important;
 }
 
 /* ---------------------------------------------------------------------------------- */
 /* NAVIGATION */
 /* homepage - navigation - orange bacground */
-/* .section-media.header-01.design-01 .nav-line {
-    background-color: #ffc535;
-} */
+.section-media.header-01.design-01 .nav-line {
+  background-color: #ffc535;
+  border-bottom: 1px solid #fff;
+}
 .header-01.design-01 .nav-line {
   top: 0 !important;
   bottom: auto !important;
