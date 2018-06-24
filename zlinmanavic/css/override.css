@@ -38,7 +38,21 @@
   font-style: italic;
 }
 
-body {
+body,
+.blog-detail-head h1,
+.blog h1,
+.text h1,
+.blog-detail-head h2,
+.blog h2,
+.text h2,
+.blog-detail-head h3,
+.blog h3,
+.text h3,
+.blog-detail-head h4,
+.blog h4,
+.text h4,
+#menu,
+.header-01 #menu {
   font-family: 'Flama', 'fira-sans', 'Trebuchet MS', sans-serif !important;
 }
 
@@ -72,10 +86,15 @@ body {
   display: none !important;
 }
 
+/* hero image */
+.section-wrapper .section-bg .section-bg-layer.wnd-background-image.bgpos-center-center.bgatt-scroll {
+  background-image: url(//michalmalota.github.io/webnode/zlinmanavic/img/hero.default.jpg);
+}
+
 /* For smaller screens, serve a different image and aspect ratio */
 @media (max-width: 1000px) {
   .section-wrapper .section-bg .section-bg-layer.wnd-background-image.bgpos-center-center.bgatt-scroll {
-    background-image: url(https://michalmalota.github.io/webnode/zlinmanavic/img/web-titl-pro-mobil-01.jpg);
+    background-image: url(//michalmalota.github.io/webnode/zlinmanavic/img/hero.small-screen.jpg) !important;
   }
   .wtf-homepage .section.default-01.design-01.section-media.wnd-background-image {
     padding-top: 56% !important;
