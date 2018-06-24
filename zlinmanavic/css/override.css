@@ -56,6 +56,15 @@ body,
   font-family: 'Flama', 'fira-sans', 'Trebuchet MS', sans-serif !important;
 }
 
+.blog-detail-head h1,
+.blog h1,
+.text h1,
+.blog-detail-head h2,
+.blog h2,
+.text h2 {
+  font-weight: bold;
+}
+
 /* ---------------------------------------------------------------------------------- */
 /* HERO */
 /* homepage - hero - disable */
@@ -86,12 +95,7 @@ body,
   display: none !important;
 }
 
-/* hero image */
-.section-wrapper .section-bg .section-bg-layer.wnd-background-image.bgpos-center-center.bgatt-scroll {
-  background-image: url(//michalmalota.github.io/webnode/zlinmanavic/img/hero.default.jpg);
-}
-
-/* For smaller screens, serve a different image and aspect ratio */
+/* For smaller screens, serve a different hero image and aspect ratio */
 @media (max-width: 1000px) {
   .section-wrapper .section-bg .section-bg-layer.wnd-background-image.bgpos-center-center.bgatt-scroll {
     background-image: url(//michalmalota.github.io/webnode/zlinmanavic/img/hero.small-screen.jpg) !important;
@@ -108,6 +112,13 @@ body,
 .color-blue .section-media .claim-color > span > span {
   box-shadow: 10px 0 0 #004a8f, -10px 0 0 #004a8f, 10px 0 0 #004a8f, -10px 0 0 #004a8f, 10px 0 0 #004a8f, -10px 0 0 #004a8f;
   background-color: #004a8f;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* LOGO */
+/* fix logo being cropped on small screens (phone vertical) */
+.header-01 .logo {
+  max-width: auto !important;
 }
 
 /* ---------------------------------------------------------------------------------- */
