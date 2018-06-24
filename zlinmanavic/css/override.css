@@ -91,7 +91,7 @@ strong {
   display: none !important;
 }
 .header-01.design-01 > .section-inner {
-  padding: 35px 0;
+  padding: 35px 0 !important;
 }
 
 /* For smaller screens, serve a different hero image and aspect ratio */
