@@ -1,0 +1,25 @@
+/*  Schovat defaultni obrazkovou hlavicku */
+.header-01.design-01 .header-claim,
+.heading-01 {
+  display: none !important;
+}
+
+/* Pridat cervenou linku na vrchni stranu webu */
+body {
+  border-top: 10px solid rgb(235, 0, 8);
+}
+
+/* Prepsat cervenou barvu na nasi */
+.wsw-09 {
+  color: rgb(235, 0, 8) !important;
+}
+
+/* Vlastni paticka */
+#michals-footer {
+  text-align: center;
+  background-color: #31333e;
+  padding-bottom: 30px;
+}
+#michals-footer > iframe {
+  margin: auto;
+}
