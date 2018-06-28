@@ -208,8 +208,8 @@ strong {
 /* CUSTOM FOOTER / FB */
 #michals-footer {
   text-align: center;
-  background-color: #004a8f;
-  padding-bottom: 30px;
+  background-color: #0D47A1; /* hack: should have been #004a8f instead but this is very close and matches the above element's bg */
+  padding-bottom: 50px;
 }
 #michals-footer > iframe {
   margin: auto;
