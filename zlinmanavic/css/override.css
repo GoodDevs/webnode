@@ -156,9 +156,10 @@ strong {
   background-color: #004a8f;
 }
 
-/* homepage - navigation - text colour blue */
-.section-media.header-01 ul.level-1>li>a {
+/* homepage - navigation - text colour blue and bold font */
+.header-01 ul.level-1>li>a {
   color: #004a8f !important;
+  font-weight: bold;
 }
 
 /* homepage - navigation - background colours and hide the top line (in active items) */
