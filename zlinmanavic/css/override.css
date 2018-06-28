@@ -122,9 +122,9 @@ strong {
 
 /* ---------------------------------------------------------------------------------- */
 /* NAVIGATION */
-/* homepage - navigation - orange bacground */
-.section-media.header-01.design-01 .nav-line,
-.section-media.header-01.design-01 .nav-line.sticky {
+/* homepage - navigation - orange background */
+.header-01.design-01 .nav-line,
+.header-01.design-01 .nav-line.sticky {
   background-color: #fff200;
   border-bottom: 4px solid #fff;
 }
@@ -137,22 +137,16 @@ strong {
 }
 
 /* other pages - navigation - orange bacground */
-.section-black.header-01.design-02 .nav-line,
-.section-black.header-01.design-02 .nav-line.sticky {
+.header-01.design-02 .nav-line,
+.header-01.design-02 .nav-line.sticky {
   background-color: #fff200;
   border-bottom: 4px solid #fff;
 }
 
-/* homepage - hamburger menu - colour */
-.section-media.header-01 #menu-submit span,
-.section-media.header-01 #menu-submit span:after,
-.section-media.header-01 #menu-submit span:before {
-  background-color: #004a8f;
-}
-/* other pages - hamburger menu - colour */
-.section-black.header-01 #menu-submit span,
-.section-black.header-01 #menu-submit span:after,
-.section-black.header-01 #menu-submit span:before {
+/* all pages - hamburger menu - colour */
+.header-01 #menu-submit span,
+.header-01 #menu-submit span:after,
+.header-01 #menu-submit span:before {
   background-color: #004a8f;
 }
 
@@ -164,34 +158,34 @@ strong {
 
 /* homepage - navigation - background colours and hide the top line (in active items) */
 @media (min-width: 768px) {
-   body:not(.touched) .section-media.header-01 ul.level-1>li>a:hover {
-      background-color: rgba(255,255,255,0.3);
-      border: 0;
+   body:not(.touched) .header-01 ul.level-1>li>a:hover {
+      background-color: rgba(255,255,255,0.3) !important;
+      border: 0 !important;
    }
 }
 
 /* other pages - navigation - background colour and hide the top line (in active items) */
 @media (min-width: 768px) {
-  .section-black.header-01 ul.level-1 > li:not(.wnd-homepage).wnd-active-path > a,
-  .section-black.header-01 ul.level-1 > li:not(.wnd-homepage).wnd-active > a {
-    background-color: rgba(255, 255, 255, 0.3);
-    border: 0;
+  .header-01 ul.level-1 > li:not(.wnd-homepage).wnd-active-path > a,
+  .header-01 ul.level-1 > li:not(.wnd-homepage).wnd-active > a {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    border: 0 !important;
   }
 }
 
 /* homepage - navigation - background colours and hide the top line (in active items) */
 @media (min-width: 768px) {
-  body:not(.touched) .section-media.header-01 ul.level-1 > li > a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-    border: 0;
+  body:not(.touched) .header-01 ul.level-1 > li > a:hover {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    border: 0 !important;
   }
 }
 
 /* other pages - navigation - background colour and hide the top line (in hovered items) */
 @media (min-width: 768px) {
-  body:not(.touched) .section-black.header-01 ul.level-1 > li > a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-    border: 0;
+  body:not(.touched) .header-01 ul.level-1 > li > a:hover {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    border: 0 !important;
   }
 }
 
