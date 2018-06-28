@@ -125,8 +125,8 @@ strong {
 /* homepage - navigation - orange bacground */
 .section-media.header-01.design-01 .nav-line,
 .section-media.header-01.design-01 .nav-line.sticky {
-  background-color: #ffc535;
-  border-bottom: 1px solid #fff;
+  background-color: #fff200;
+  border-bottom: 4px solid #fff;
 }
 .header-01.design-01 .nav-line {
   top: 0 !important;
@@ -139,8 +139,8 @@ strong {
 /* other pages - navigation - orange bacground */
 .section-black.header-01.design-02 .nav-line,
 .section-black.header-01.design-02 .nav-line.sticky {
-  background-color: #ffc535;
-  border-bottom: 1px solid #fff;
+  background-color: #fff200;
+  border-bottom: 4px solid #fff;
 }
 
 /* homepage - hamburger menu - colour */
@@ -156,18 +156,31 @@ strong {
   background-color: #004a8f;
 }
 
+/* homepage - navigation - text colour blue */
+.section-media.header-01 ul.level-1>li>a {
+  color: #004a8f !important;
+}
+
 /* homepage - navigation - background colours and hide the top line (in active items) */
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
    body:not(.touched) .section-media.header-01 ul.level-1>li>a:hover {
       background-color: rgba(255,255,255,0.3);
       border: 0;
    }
-} */
+}
 
 /* other pages - navigation - background colour and hide the top line (in active items) */
 @media (min-width: 768px) {
   .section-black.header-01 ul.level-1 > li:not(.wnd-homepage).wnd-active-path > a,
   .section-black.header-01 ul.level-1 > li:not(.wnd-homepage).wnd-active > a {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 0;
+  }
+}
+
+/* homepage - navigation - background colours and hide the top line (in active items) */
+@media (min-width: 768px) {
+  body:not(.touched) .section-media.header-01 ul.level-1 > li > a:hover {
     background-color: rgba(255, 255, 255, 0.3);
     border: 0;
   }
@@ -182,9 +195,16 @@ strong {
 }
 
 /* ---------------------------------------------------------------------------------- */
-/* ICONS */
+/* COLOURS */
 /* icons - blue colour */
 .color-blue .section-white .mt-03-column embed,
 .color-blue .section-white .mt-contact-02 embed {
-  color: #004a8f;
+  color: #004a8f !important;
+}
+
+/* titles - blue colour */
+.color-blue .section-white .blog-item a, 
+.color-blue .section-white .form label a,
+.color-blue .section-white .text a {
+    color: #004a8f !important;
 }
