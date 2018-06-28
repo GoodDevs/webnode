@@ -125,8 +125,8 @@ strong {
 /* homepage - navigation - orange background */
 .header-01.design-01 .nav-line,
 .header-01.design-01 .nav-line.sticky {
-  background-color: #fff200;
-  border-bottom: 4px solid #fff;
+  background-color: #fff200 !important;
+  border-bottom: 4px solid #fff !important;
 }
 .header-01.design-01 .nav-line {
   top: 0 !important;
@@ -139,15 +139,15 @@ strong {
 /* other pages - navigation - orange bacground */
 .header-01.design-02 .nav-line,
 .header-01.design-02 .nav-line.sticky {
-  background-color: #fff200;
-  border-bottom: 4px solid #fff;
+  background-color: #fff200 !important;
+  border-bottom: 4px solid #fff !important;
 }
 
 /* all pages - hamburger menu - colour */
 .header-01 #menu-submit span,
 .header-01 #menu-submit span:after,
 .header-01 #menu-submit span:before {
-  background-color: #004a8f;
+  background-color: #004a8f !important;
 }
 
 /* homepage - navigation - text colour blue and bold font */
