@@ -203,3 +203,14 @@ strong {
 .color-blue .section-white .text a {
     color: #004a8f !important;
 }
+
+/* ---------------------------------------------------------------------------------- */
+/* CUSTOM FOOTER / FB */
+#michals-footer {
+  text-align: center;
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+#michals-footer > iframe {
+  margin: auto;
+}
