@@ -114,10 +114,11 @@ strong {
 }
 
 /* headings - blue background */
-/* .color-blue .section-white .claim-bg-color>span>span,
+.color-blue .section-white .claim-bg-color>span>span,
 .color-blue .section-white .claim-color>span>span {
+  box-shadow: 10px 0 0 #004a8f, -10px 0 0 #004a8f, 10px 0 0 #004a8f, -10px 0 0 #004a8f, 10px 0 0 #004a8f, -10px 0 0 #004a8f !important;
   background-color: #004a8f !important;
-} */
+} 
 
 @media (max-width: 899px) {
   .auto-font-size {
