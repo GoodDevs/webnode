@@ -144,6 +144,15 @@ strong {
     padding: 2% 5% !important;
 }
 
+/* custom-page-title */
+h1.custom-page-title {
+  font-size:3em;
+  color: #fff;
+  
+  box-shadow: 10px 0 0 #004a8f, -10px 0 0 #004a8f, 10px 0 0 #004a8f, -10px 0 0 #004a8f, 10px 0 0 #004a8f, -10px 0 0 #004a8f;
+  background-color: #004a8f;
+}
+
 /* ---------------------------------------------------------------------------------- */
 /* LOGO */
 /* fix logo being cropped on small screens (phone vertical) */
