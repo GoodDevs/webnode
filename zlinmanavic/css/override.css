@@ -148,6 +148,7 @@ strong {
 h1.custom-page-title {
   text-align: center;
   font-size:2em;
+  margin:0;
 }
 h1.custom-page-title span {
   display: inline-block;
