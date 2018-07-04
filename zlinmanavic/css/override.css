@@ -131,6 +131,19 @@ strong {
   }
 }
 
+/* letter spacing */
+@media (min-width: 600px) {
+  body:not(.wnd-fonts-fallback) .auto-font-size .fira-sans, body:not(.wnd-fonts-fallback) .auto-font-size .proxima-nova, body:not(.wnd-fonts-fallback) .auto-font-size .roboto {
+    word-spacing: 3px;
+    letter-spacing: 2px;
+  }
+}
+
+/* vertical spacing */
+.heading-01.design-02 .section-inner {
+    padding: 2% 5% !important;
+}
+
 /* ---------------------------------------------------------------------------------- */
 /* LOGO */
 /* fix logo being cropped on small screens (phone vertical) */
