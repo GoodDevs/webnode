@@ -104,6 +104,24 @@ strong {
   }
 }
 
+
+/* candidate pages - set proportional height of the first content element to ensure that the background photo is displayed as required */
+.wtf-default .section.heading-01.design-02.section-media.wnd-background-image {
+  width: 100% !important;
+  padding-top: 27% !important;
+  position: relative !important;
+}
+.wtf-default .section.heading-01.design-02.section-media.wnd-background-image .section-inner {
+  display: none !important;
+}
+
+/* For smaller screens, hide altogether */
+@media (max-width: 1000px) {
+  .wtf-default .section.heading-01.design-02.section-media.wnd-background-image {
+    display:none !important;
+  }
+}
+
 /* ---------------------------------------------------------------------------------- */
 /* HEADINGS */
 /* headings - blue background */
