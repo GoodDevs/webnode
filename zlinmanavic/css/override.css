@@ -116,7 +116,7 @@ strong {
 }
 
 /* For smaller screens, hide altogether */
-@media (max-width: 1000px) {
+@media (max-width: 767px) {
   .wtf-default .section.heading-01.design-02.section-media.wnd-background-image {
     display:none !important;
   }
