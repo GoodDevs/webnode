@@ -179,6 +179,14 @@ h1.custom-page-title span {
   background-color: #004a8f;
 }
 
+
+/* ---------------------------------------------------------------------------------- */
+/* CONTENT */
+/* layout - vertical padding */
+.section.default-01.design-01.section-white > .section-inner {
+  padding-top: 0 !important;
+}
+
 /* ---------------------------------------------------------------------------------- */
 /* LOGO */
 /* fix logo being cropped on small screens (phone vertical) */
