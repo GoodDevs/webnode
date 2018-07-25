@@ -186,6 +186,10 @@ h1.custom-page-title span {
 .layout-01.wtf-default .section.default-01.design-01.section-white > .section-inner {
   padding-top: 10px !important;
 }
+/* blog - content - vertical padding */
+.layout-01.bloglist .section.default-01.design-01.section-white > .section-inner {
+  padding-top: 10px !important;
+}
 
 /* ---------------------------------------------------------------------------------- */
 /* LOGO */
