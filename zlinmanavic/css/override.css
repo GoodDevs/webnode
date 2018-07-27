@@ -282,6 +282,16 @@ h1.custom-page-title span {
     color: #004a8f !important;
 }
 
+
+/* ---------------------------------------------------------------------------------- */
+/* FOOTER */
+#footer {
+  background-color: #0D47A1 !important;
+}
+#footer .wnd-background-solid {
+  background-color: #0D47A1 !important;
+}
+
 /* ---------------------------------------------------------------------------------- */
 /* CUSTOM FOOTER / FB */
 #michals-footer {
