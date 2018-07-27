@@ -298,3 +298,21 @@ h1.custom-page-title span {
 .mt-column.cf a:hover {
   text-decoration: underline;
 }
+
+/* ---------------------------------------------------------------------------------- */
+/* CANDIDATE LIST ON THE HOMEPAGE - ALES DUFEK */
+/* use general sibling combinator to style first/other */
+/* first item */
+.wtf-homepage .section-gray .section-inner {
+  padding: 60px 0 0;
+}
+.wtf-homepage .section-gray .mt-column {
+  padding: 0;
+}
+/* the rest of the items */
+.wtf-homepage .section-gray ~ .section-gray .section-inner {
+  padding: 20px 0;
+}
+.wtf-homepage .section-gray ~ .section-gray .mt-column {
+  padding: 10px 0;
+}
